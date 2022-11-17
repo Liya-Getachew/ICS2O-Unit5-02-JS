@@ -21,13 +21,11 @@ const randomNumber = Math.floor(Math.random() * 6) + 1
  * This function displays an alert.
  */
 function generate() {
-  checked = document.getElementById('button1').checked
+  checked = document.getElementById("button1").checked
 
   if (checked == true) {
-    document.getElementById("number").innerHTML =
-    "hi"
+    document.getElementById("number").innerHTML = "hi"
   } else {
-    document.getElementById("number").innerHTML =
-    "bye"
+    document.getElementById("number").innerHTML = "bye"
   }
 }
