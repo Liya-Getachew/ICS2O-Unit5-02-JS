@@ -15,9 +15,19 @@ if (navigator.serviceWorker) {
   })
 }
 
+const randomNumber = Math.floor(Math.random() * 6) + 1
+
 /**
  * This function displays an alert.
  */
-function myButtonClicked() {
-  document.getElementById("hello-world").innerHTML = "<p>Hello, World!</p>"
+function generate() {
+  checked = document.getElementById('button1').checked
+
+  if (checked == true) {
+    document.getElementById("number").innerHTML =
+    "hi"
+  } else {
+    document.getElementById("number").innerHTML =
+    "bye"
+  }
 }
