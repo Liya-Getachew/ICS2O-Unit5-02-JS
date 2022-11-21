@@ -16,23 +16,19 @@ if (navigator.serviceWorker) {
 }
 
 /**
- * This function updates the slider value.
- */
-function updateSliderValue(valueFromSlider) {
-  document.getElementById("slider-value").innerHTML = valueFromSlider
-}
-
-/**
  * This function displays the slider value.
  */
 function myButtonClicked() {
-  buttonOnChecked = document.getElementById("flash1").checked
+  const buttonOnChecked = document.getElementById('flash1').checked
+  const randomNumber = Math.floor(Math.random() * 6) + 1
+  const randomNumber2 = Math.floor(Math.random() * -6) + 0
 
   if (buttonOnChecked == true) {
     document.getElementById("radio-button-value").innerHTML =
-      "<p>Value is: On</p>"
+    "Your positive number is: " + randomNumber
   } else {
     document.getElementById("radio-button-value").innerHTML =
-      "<p>Value is: Off</p>"
+    "Your negative number is: " + randomNumber2
   }
 }
+

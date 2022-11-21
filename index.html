@@ -59,12 +59,12 @@
       </header>
       <main class="mdl-layout__content">
         <img
-          src="./images/notebook-animation.svg"
-          alt="Computer"
-          width="25%"
-          height="25%"
+          src="./images/numberline.svg"
+          alt="positive and negative"
+          width="500"
+          height="200"
         />
-        <p>Do you want a positive number or negative number?</p>
+        <p id="question">Do you want a positive number or negative number?</p>
         <div id="radio-buttons">
           <label
             class="mdl-radio mdl-js-radio mdl-js-ripple-effect"
@@ -78,7 +78,7 @@
               type="radio"
               value="on"
             />
-            <span class="mdl-radio__label">positive 1 to 6</span>
+            <span class="mdl-radio__label" id="one">positive 1 to 6</span>
           </label>
           <label
             class="mdl-radio mdl-js-radio mdl-js-ripple-effect"
@@ -91,7 +91,7 @@
               type="radio"
               value="off"
             />
-            <span class="mdl-radio__label">negative (-1) to (-6)</span>
+            <span class="mdl-radio__label" id="two">negative (-1) to (-6)</span>
           </label>
         </div>
         <div id="radio-button-value">___</div>
