@@ -7,7 +7,7 @@
 "use strict"
 
 /**
- * Check servie worker.
+ * Check service worker.
  */
 if (navigator.serviceWorker) {
   navigator.serviceWorker.register("/ICS2O-Unit5-02-JS/sw.js", {
@@ -15,17 +15,24 @@ if (navigator.serviceWorker) {
   })
 }
 
-const randomNumber = Math.floor(Math.random() * 6) + 1
+/**
+ * This function updates the slider value.
+ */
+function updateSliderValue(valueFromSlider) {
+  document.getElementById("slider-value").innerHTML = valueFromSlider
+}
 
 /**
- * This function displays an alert.
+ * This function displays the slider value.
  */
-function generate() {
-  checked = document.getElementById("button1").checked
+function myButtonClicked() {
+  buttonOnChecked = document.getElementById('flash1').checked
 
-  if (checked == true) {
-    document.getElementById("number").innerHTML = "hi"
+  if (buttonOnChecked == true) {
+    document.getElementById("radio-button-value").innerHTML =
+    "<p>Value is: On</p>"
   } else {
-    document.getElementById("number").innerHTML = "bye"
+    document.getElementById("radio-button-value").innerHTML =
+    "<p>Value is: Off</p>"
   }
 }
