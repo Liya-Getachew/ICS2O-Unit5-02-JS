@@ -31,7 +31,7 @@
                 <mxCell id="23" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0.538;entryY=0.167;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="16" target="22" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="16" value="if&lt;br&gt;button1 ==&lt;br&gt;buttonOnChecked&lt;br&gt;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" parent="1" vertex="1">
+                <mxCell id="16" value="if&lt;br&gt;buttonOnChecked&lt;br&gt;==&lt;br&gt;true" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" parent="1" vertex="1">
                     <mxGeometry x="295.63" y="590" width="116.25" height="110" as="geometry"/>
                 </mxCell>
                 <mxCell id="26" style="edgeStyle=elbowEdgeStyle;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;elbow=vertical;" parent="1" source="19" target="6" edge="1">
@@ -52,10 +52,10 @@
                     <mxGeometry x="300" y="730" width="100" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="27" value="Yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-                    <mxGeometry x="300" y="670" width="60" height="30" as="geometry"/>
+                    <mxGeometry x="300" y="690" width="60" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="28" value="No" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-                    <mxGeometry x="396.25" y="600" width="60" height="30" as="geometry"/>
+                    <mxGeometry x="395" y="620" width="60" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="31" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="29" target="5">
                     <mxGeometry relative="1" as="geometry"/>
