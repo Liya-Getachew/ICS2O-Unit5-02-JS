@@ -19,16 +19,15 @@ if (navigator.serviceWorker) {
  * This function displays the slider value.
  */
 function myButtonClicked() {
-  const buttonOnChecked = document.getElementById('flash1').checked
+  const buttonOnChecked = document.getElementById("flash1").checked
   const randomNumber = Math.floor(Math.random() * 6) + 1
   const randomNumber2 = Math.floor(Math.random() * -6) + 0
 
   if (buttonOnChecked == true) {
     document.getElementById("radio-button-value").innerHTML =
-    "Your positive number is: " + randomNumber
+      "Your positive number is: " + randomNumber
   } else {
     document.getElementById("radio-button-value").innerHTML =
-    "Your negative number is: " + randomNumber2
+      "Your negative number is: " + randomNumber2
   }
 }
-
